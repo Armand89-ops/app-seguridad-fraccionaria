@@ -69,7 +69,6 @@ const funcionLogin = async() => {
         alert('Usuario o contraseña incorrectos');
       }
     } catch (error) {
-      // Manejar errores de conexión o del servidor
       alert('Error de conexión');
     }
 };
@@ -88,7 +87,6 @@ return (
           style={styles.input}                               
         />
         
-        {/* Campo de entrada para la contraseña */}
         <TextInput
           mode="outlined"                                 
           label="Contraseña"                           
@@ -97,7 +95,6 @@ return (
           secureTextEntry={!mostrarContraseña}          
           style={styles.input}                       
           right={
-            // Icono para mostrar/ocultar contraseña
             <TextInput.Icon 
               icon={mostrarContraseña ? "eye-off" : "eye"}  
               onPress={() => setMostrarContraseña(!mostrarContraseña)}
@@ -105,15 +102,12 @@ return (
           }
         />
         
-        {/* Botón para navegar a la pantalla de registro */}
         <Button mode="text" >
           Recuperar contraseña
         </Button>
         
-        {/* Espaciado entre botones */}
         <View style={{ height: 16 }} />
         
-        {/* Botón principal para iniciar sesión */}
         <Button mode="contained" onPress={funcionLogin}>
           Iniciar sesión
         </Button>
@@ -128,11 +122,8 @@ export default function App() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
     <PaperProvider>
-      {/* Contenedor principal de navegación */}
       <NavigationContainer>
-        {/* Configuración del navegador de pila */}
         <Stack.Navigator screenOptions={{ headerShown: false }}>
-          {/* Definición de todas las pantallas de la aplicación */}
           
           {/* Pantalla inicial - Login */}
           <Stack.Screen 
