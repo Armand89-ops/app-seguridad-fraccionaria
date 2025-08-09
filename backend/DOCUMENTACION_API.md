@@ -118,7 +118,7 @@ conectarDB();
 const uri = "mongodb://localhost:27017";
 
 // Por esta (con tu string de conexión de Atlas):
-const uri = "mongodb+srv://usuario:password@cluster.mongodb.net/AplicacionTareas";
+const uri = "";
 ```
 
 ---
