@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "314895354523",
+    "project_id": "expo-notification-e7a56",
+    "storage_bucket": "expo-notification-e7a56.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314895354523:android:67eb25e3df7374999ad43e",
+        "android_client_info": {
+          "package_name": "com.armand89.Notificaciones"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUlxekXm_G5FU5JirZFf3LuJTLNhkfqrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
